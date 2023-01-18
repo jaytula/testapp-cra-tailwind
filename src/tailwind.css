@@ -2,8 +2,12 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  background-color: black;
+}
 .frontpage-rect {
   @apply z-50 h-12 w-56 bg-[#C5A38B] opacity-50;
+  margin: -24px auto;
 }
 
 .header-container {
