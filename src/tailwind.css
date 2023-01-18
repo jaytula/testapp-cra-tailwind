@@ -2,3 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.frontpage-rect {
+  @apply z-50 h-12 w-56 bg-[#C5A38B] opacity-50;
+}
+
+.header-container {
+  @apply grid place-content-center bg-[url('./assets/brano-K2MsWQc0M0k-unsplash.jpg')] bg-cover bg-center bg-no-repeat h-[50vh] w-full overflow-hidden;
+}
